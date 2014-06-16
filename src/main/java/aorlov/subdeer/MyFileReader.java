@@ -8,5 +8,5 @@ package aorlov.subdeer;
  * To change this template use File | Settings | File Templates.
  */
 public interface MyFileReader {
-    public String readFile(String filename);
+    public String readFile(String path);
 }
