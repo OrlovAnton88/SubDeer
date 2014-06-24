@@ -11,16 +11,20 @@ import java.util.Collection;
  */
 public class Roller {
 
-    public static void main (String [] args){
 
-        String filename = "D:\\GitHub\\SubDeer\\src\\main\\resources\\test.sub";
-        MyFileReader fileReader = new MyFileReaderImpl();
-        String subs = fileReader.readFile(filename);
+    String filename = "D:\\GitHub\\SubDeer\\src\\main\\resources\\test.sub";
 
-        Collection<Word> words = ParseEngine.getInstance().getListOfWords(subs);
+    public Roller() {
 
-        for(Word word: words){
-            System.out.println(word.getWord());
+    }
+
+
+    public Collection<Word> getListOfWords(String path) {
+        if (path == null || path.length() == 0) {
+            path = filename;
         }
+        String subs = MyFileReader.getInstance().readFile(path);
+
+        return ParseEngine.getInstance().getListOfWords(subs);
     }
 }

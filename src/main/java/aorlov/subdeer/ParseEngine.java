@@ -43,7 +43,15 @@ public class ParseEngine {
             i++;
         }
         return toReturn;
+    }
 
+    public Collection<String> getListOfWordsInString(String subs) {
+        Collection<Word> words =  getListOfWords(subs);
+        Collection<String> toReturn = new ArrayList<>();
+        for(Word word : words){
+            toReturn.add(word.getWord());
+        }
+        return toReturn;
     }
 
     public String filter(String strIn) {
@@ -72,7 +80,7 @@ public class ParseEngine {
 
     public Set getListOfSortOfWords() {
 
-        String pronFile = FileReaderHelper.getInstance().readFile("/Users/nika/IdeaProjects/SubDeer/res/pronsAtLeast3chars.txt");
+        String pronFile = MyFileReader.getInstance().readFile("/Users/nika/IdeaProjects/SubDeer/res/pronsAtLeast3chars.txt");
         String[] pronouns = pronFile.split("\\n");
         Set pronounsSet = new HashSet();
         for (int i = 0; i < pronouns.length; i++) {

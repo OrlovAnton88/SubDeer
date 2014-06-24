@@ -2,21 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a22e5e3-036a-4237-a951-642876fd0f9c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilterImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/FrmTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/GuiHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/MainGuiClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/MainScreenView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/RunMVC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubDeerMVC.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubListModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/TestRoller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/View.java" />
+      <change type="DELETED" beforePath="D:\GitHub\SubDeer\src\main\java\aorlov\subdeer\MyFileReaderImpl.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/Roller.java" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/Roller.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\GitHub\SubDeer\src\main\java\aorlov\subdeer\FileReaderHelper.java" afterPath="$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java" />
     </list>
     <ignored path="SubDeer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/FileReaderImpl.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402343363839" ignored="false" />
-    <file path="/Roller.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402343795582" ignored="false" />
-    <file path="/ParseEngine.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402344088524" ignored="false" />
+    <file path="/Roller.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403550254214" ignored="false" />
+    <file path="/ParseEngine.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403646520392" ignored="false" />
     <file path="/FileReaderHelper.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402344022246" ignored="false" />
-    <file path="/Dummy.txt" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402951864297" ignored="false" />
+    <file path="/Dummy.txt" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402952332144" ignored="false" />
     <file path="/SimpleFilter.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402952126269" ignored="false" />
     <file path="/MyFileReader.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402952151813" ignored="false" />
     <file path="/SimpleFilterImpl.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1402952232997" ignored="false" />
+    <file path="/Test.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403546940465" ignored="false" />
+    <file path="/MainGuiClass.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403550870934" ignored="false" />
+    <file path="/GuiHelper.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403550391232" ignored="false" />
+    <file path="/TestRoller.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403550221174" ignored="false" />
+    <file path="/View.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403645842502" ignored="false" />
+    <file path="/SubListModel.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403646567577" ignored="false" />
+    <file path="/MainScreenView.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403647170519" ignored="false" />
+    <file path="/SubDeerMVC.java" changelist="0a22e5e3-036a-4237-a951-642876fd0f9c" time="1403647393453" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,28 +98,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="9" column="19" selection-start="204" selection-end="232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Roller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/Roller.java">
+      <file leaf-file-name="SubListModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubListModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+            <state line="13" column="54" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleFilterImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilterImpl.java">
+      <file leaf-file-name="View.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+            <state line="87" column="0" selection-start="2886" selection-end="3121" vertical-scroll-proportion="-19.64">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,52 +129,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParseEngine.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java">
+      <file leaf-file-name="MainScreenView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/MainScreenView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1003#1009#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileReaderHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/FileReaderHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="84" selection-start="559" selection-end="559" vertical-scroll-proportion="1.2459016">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Word.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/Word.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFileReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyFileReaderImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReaderImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="14" column="27" selection-start="293" selection-end="307" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainGuiClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/MainGuiClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="86" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FrmTable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/FrmTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="14" selection-start="1708" selection-end="1714" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="14" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RunMVC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/RunMVC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="906" selection-end="1162" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubDeerMVC.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubDeerMVC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="28" selection-start="584" selection-end="584" vertical-scroll-proportion="1.3934426">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="23" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -181,19 +213,32 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="SubDeer" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/FileReaderImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReaderImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/Word.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/FileReaderHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/Roller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilterImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/GuiHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/TestRoller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/MainGuiClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/FrmTable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/CVcontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Ccontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/RunMVC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/MainScreenView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubDeerMVC.java" />
       </list>
     </option>
   </component>
@@ -319,6 +364,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test_gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subdeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subdeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubDeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="subdeer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="filters" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -359,15 +498,103 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Roller">
-    <configuration default="false" name="Roller" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.FrmTable">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="aorlov.subdeer.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.gui.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SubDeer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainGuiClass" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="aorlov.subdeer.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.gui.MainGuiClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SubDeer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRoller" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="aorlov.subdeer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.Roller" />
+      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.TestRoller" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SubDeer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FrmTable" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="aorlov.subdeer.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.gui.FrmTable" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SubDeer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="aorlov.subdeer.test_gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="aorlov.subdeer.test_gui.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -473,12 +700,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Roller" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainGuiClass" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestRoller" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FrmTable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Roller" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.FrmTable" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainGuiClass" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestRoller" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -487,6 +722,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
@@ -515,36 +755,41 @@
       <created>1402951928150</created>
       <updated>1402951928150</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="filters">
+      <created>1402952339242</created>
+      <updated>1402952339242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15250379" sideWeight="0.887372" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.887372" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.4939302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5" sideWeight="0.49772382" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48464164" sideWeight="0.48786038" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15250379" sideWeight="0.49488056" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3139932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17235495" sideWeight="0.4908953" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -586,7 +831,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="filters" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -600,6 +845,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial" />
+    <MESSAGE value="filters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,23 +855,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/javax/swing/JTabbedPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="781" column="16" selection-start="26645" selection-end="26645" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#83189#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="31" selection-start="432" selection-end="459" vertical-scroll-proportion="-5.96">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="22" selection-start="804" selection-end="811" vertical-scroll-proportion="0.50688076">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/ParseEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="28" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0">
+        <state line="47" column="52" selection-start="1369" selection-end="1391" vertical-scroll-proportion="0.54587156">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1003#1009#0" expanded="true" />
@@ -633,57 +898,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/FrmTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/Roller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/MyFileReaderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+        <state line="51" column="14" selection-start="1708" selection-end="1714" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+        <state line="16" column="23" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_07/src.zip!/java/awt/event/WindowAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="16" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.3326226">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2886" selection-end="3121" vertical-scroll-proportion="-19.64">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/filters/SimpleFilterImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/MainGuiClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0">
+        <state line="71" column="86" selection-start="2400" selection-end="2400" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/FileReaderHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/MainScreenView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="84" selection-start="559" selection-end="559" vertical-scroll-proportion="1.2459016">
+        <state line="14" column="27" selection-start="293" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="204" selection-end="232" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="54" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="14" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/test_gui/RunMVC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="906" selection-end="1162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/aorlov/subdeer/gui/mvc/SubDeerMVC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="584" selection-end="584" vertical-scroll-proportion="1.3934426">
           <folding />
         </state>
       </provider>
