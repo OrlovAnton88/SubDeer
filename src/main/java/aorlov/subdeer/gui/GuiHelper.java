@@ -1,8 +1,6 @@
 package aorlov.subdeer.gui;
 
-import aorlov.subdeer.ParseEngine;
 import aorlov.subdeer.Roller;
-import aorlov.subdeer.Word;
 
 import java.util.Collection;
 
@@ -19,10 +17,10 @@ public class GuiHelper {
 
         Roller roller = new Roller();
         StringBuffer stringBuffer = new StringBuffer();
-        Collection<Word> words = roller.getListOfWords(path);
+        Collection<String> words = roller.getListOfWords(path);
 
-        for (Word word : words) {
-            stringBuffer.append(word.getWord());
+        for (String word : words) {
+            stringBuffer.append(word);
             stringBuffer.append(System.lineSeparator());
         }
 

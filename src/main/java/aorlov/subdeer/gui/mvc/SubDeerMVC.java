@@ -1,7 +1,5 @@
 package aorlov.subdeer.gui.mvc;
 
-import aorlov.subdeer.test_gui.Controller;
-
 /**
  * Created with IntelliJ IDEA.
  * User: Mouse
@@ -17,14 +15,14 @@ public class SubDeerMVC {
 
         myModel.addObserver(myView);
 
-        Controller myController = new Controller();
-        myController.addModel(myModel);
-        myController.addView(myView);
-        //here welcome words
-        myController.initModel(start_value);
+//        Controller myController = new Controller();
+//        myController.addModel(myModel);
+//        myController.addView(myView);
+//        //here welcome words
+//        myController.initModel(start_value);
 
         //tell View about Controller
-        myView.addController(myController);
+//        myView.addController(myController);
 
     }
 }

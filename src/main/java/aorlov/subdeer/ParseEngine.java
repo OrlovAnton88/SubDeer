@@ -1,5 +1,6 @@
 package aorlov.subdeer;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
@@ -20,7 +21,7 @@ public class ParseEngine {
 
     private char[] symbols = new char[]{'.', ',', ';', ':', '{', '}', '[', ']', '|', '!', '?'};
 
-    public Collection<Word> getListOfWords(String subs) {
+    public Collection<String> getListOfWords(String subs) {
         StringBuffer regexSrt = new StringBuffer("\\s+|\\");
         for (int i = 0; i < symbols.length - 1; i++) {
             regexSrt = regexSrt.append(symbols[i]);
@@ -31,30 +32,60 @@ public class ParseEngine {
         System.out.println(regexSrt.toString());
         String[] list = subs.split(regexSrt.toString());
 
-        ArrayList<Word> toReturn = new ArrayList<Word>();
+        ArrayList<String> toReturn = new ArrayList<String>();
         for (int i = 0; i < list.length; i++) {
-            Word word = new Word();
             String w = list[i];
             w = filter(w);
             if (w.length() != 0) {
-                word.setWord(list[i]);
-                toReturn.add(word);
+                toReturn.add(list[i]);
             }
             i++;
         }
         return toReturn;
     }
 
-    public Collection<String> getListOfWordsInString(String subs) {
-        Collection<Word> words =  getListOfWords(subs);
-        Collection<String> toReturn = new ArrayList<>();
-        for(Word word : words){
-            toReturn.add(word.getWord());
+    public Set<String> getSetOfWords(Collection <String> listOfWords){
+        Set <String> setOfWrods = new HashSet<>();
+        for(String word: listOfWords){
+            setOfWrods.add(word);
+        }
+         return setOfWrods;
+    }
+
+//    public Collection<String> getListOfWordsInString(String subs) {
+//        Collection<Word> words =  getListOfWords(subs);
+//        Collection<String> toReturn = new ArrayList<>();
+//        for(Word word : words){
+//            toReturn.add(word.getWord());
+//        }
+//        return toReturn;
+//    }
+//
+    public Collection<String[]> getWordsArrayToFillTable(String subs) {
+        Collection<String> words =  getSetOfWords(getListOfWords(subs));
+        Collection<String[]> toReturn = new ArrayList<String[]>();
+        int counter =0;
+        String[] stringsArray = new String[6];
+        for(String word : words){
+            stringsArray[counter] = word;
+            if(counter ==5){
+                toReturn.add(stringsArray);
+                stringsArray =new String[6];
+                counter=0;
+
+            }else{
+                counter++;
+            }
         }
         return toReturn;
     }
 
-    public String filter(String strIn) {
+    public Collection<Word> getTop100Words() {
+        return null;
+    }
+
+
+    private String filter(String strIn) {
 
         if (strIn.length() < 3) {
             return "";
@@ -69,24 +100,27 @@ public class ParseEngine {
             return "";
         }
 
-//        Set pronounce = getListOfSortOfWords();
-//        if (pronounce.contains(strIn)) {
-//            return "";
-//        }
+        Set sortOutWords = getListOfSortOfWords();
+        if (sortOutWords.contains(strIn)) {
+            return "";
+        }
 
         return strIn;
 
     }
 
     public Set getListOfSortOfWords() {
+        Set distinctWords = new HashSet();
+        Collection<File> filters = MyFileReader.getInstance().getListOfFilters("G:\\my\\SubDeer\\src\\main\\resources");
 
-        String pronFile = MyFileReader.getInstance().readFile("/Users/nika/IdeaProjects/SubDeer/res/pronsAtLeast3chars.txt");
-        String[] pronouns = pronFile.split("\\n");
-        Set pronounsSet = new HashSet();
-        for (int i = 0; i < pronouns.length; i++) {
-            pronounsSet.add(pronouns[i].trim());
+        for (File filter : filters) {
+            String data = MyFileReader.getInstance().readFile(filter);
+            String[] words = data.split("\\n");
+            for (int i = 0; i < words.length; i++) {
+                distinctWords.add(words[i].trim());
+            }
         }
-        return pronounsSet;
+        return distinctWords;
     }
 
     public static ParseEngine getInstance() {

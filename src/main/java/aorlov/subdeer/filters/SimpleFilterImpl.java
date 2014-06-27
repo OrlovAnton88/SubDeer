@@ -13,8 +13,7 @@ import java.util.Set;
 public class SimpleFilterImpl implements SimpleFilter {
     @Override
     public Collection<Set> getLists(String path) {
-
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+       return null;
     }
 
     @Override

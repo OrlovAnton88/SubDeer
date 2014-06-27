@@ -13,10 +13,11 @@ public class TestRoller {
 
     public static void main (String [] args){
         Roller roll= new Roller();
-        Collection<Word> words = roll.getListOfWords("");
-
-        for(Word word: words){
-            System.out.println(word.getWord());
+        Collection<String> words = roll.getListOfWords("");
+         int i=0;
+        for(String word: words){
+            System.out.println(i + "- " +word);
+            i++;
         }
     }
 }

@@ -1,6 +1,6 @@
 package aorlov.subdeer.test_gui;
 
-class Controller implements java.awt.event.ActionListener {
+public class Controller implements java.awt.event.ActionListener {
 
     //Joe: Controller has Model and View hardwired in
     Model model;

@@ -12,14 +12,14 @@ import java.util.Collection;
 public class Roller {
 
 
-    String filename = "D:\\GitHub\\SubDeer\\src\\main\\resources\\test.sub";
+    String filename = "G:\\my\\SubDeer\\src\\main\\resources\\Back.To.The.Future.sub";
 
     public Roller() {
 
     }
 
 
-    public Collection<Word> getListOfWords(String path) {
+    public Collection<String> getListOfWords(String path) {
         if (path == null || path.length() == 0) {
             path = filename;
         }

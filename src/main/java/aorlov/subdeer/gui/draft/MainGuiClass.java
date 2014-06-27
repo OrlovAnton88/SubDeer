@@ -1,10 +1,14 @@
-package aorlov.subdeer.gui;
+package aorlov.subdeer.gui.draft;
+
+import aorlov.subdeer.gui.GuiHelper;
 
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
+import java.util.Collection;
 
 /**
 * Created with IntelliJ IDEA.
@@ -15,12 +19,16 @@ import java.awt.event.KeyEvent;
 */
 public class MainGuiClass implements ActionListener{
     GuiHelper guiHelper;
+    private static JFileChooser fileChooser;
     public MainGuiClass(){
                          guiHelper = new GuiHelper();
+        fileChooser = new JFileChooser();
     }
 
     JTextArea jtAreaOutput;
     JScrollPane jspPane;
+    JTable table;
+    DefaultTableModel tableModel;
 
     public JMenuBar createJMenuBar() {
         JMenuBar mainMenuBar;
@@ -37,6 +45,9 @@ public class MainGuiClass implements ActionListener{
         //todo: ctrl+O
         open = new JMenuItem("Open",
                 KeyEvent.VK_O);
+
+        open.addActionListener(new TopMenuListener(this));
+
         exit = new JMenuItem("Exit");
         // can be done either way for assigning shortcuts
         // menuItem.setMnemonic(KeyEvent.VK_T);
@@ -61,12 +72,17 @@ public class MainGuiClass implements ActionListener{
         top100Pane.setOpaque(true);
         // Create a scrolled text area.
         //todo: file below
-        jtAreaOutput = new JTextArea(5, 30);
-        jtAreaOutput.setEditable(false);
-        //todo: refactor
-
-        jtAreaOutput.setText(guiHelper.getTextFile(""));
-        jspPane = new JScrollPane(jtAreaOutput);
+        //------------------------------table---------------------------------------------
+        JTable table = new JTable();
+        table.setTableHeader(null);
+        tableModel = new DefaultTableModel(0,6);
+        table.setModel(tableModel);
+//        jtAreaOutput = new JTextArea(5, 30);
+//        jtAreaOutput.setEditable(false);
+//        //todo: refactor
+//
+////        jtAreaOutput.setText(guiHelper.getTextFile(""));
+        jspPane = new JScrollPane(table);
         // Add the text area to the content pane.
         top100Pane.add(jspPane, BorderLayout.CENTER);
         tabbedPane.addTab("Top 100", top100Pane);
@@ -74,6 +90,17 @@ public class MainGuiClass implements ActionListener{
         tabbedPane.setSelectedIndex(0);
 
         return tabbedPane;
+    }
+
+    public void updateTextField(String text){
+        jtAreaOutput.setText(text);
+    }
+
+    public void updateTable(Collection<String[]> rows){
+        for(String[] row: rows){
+      tableModel.addRow(row);
+        }
+
     }
 
     private static void createGUI() {

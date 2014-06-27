@@ -2,6 +2,8 @@ package aorlov.subdeer;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collection;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,6 +22,11 @@ public class MyFileReader {
     public String readFile(String filename) {
         String content = null;
         File file = new File(filename); //for ex foo.txt
+        return readFile(file);
+    }
+
+    public String readFile(File file) {
+        String content = null;
         try {
             java.io.FileReader reader = new java.io.FileReader(file);
             char[] chars = new char[(int) file.length()];
@@ -30,6 +37,21 @@ public class MyFileReader {
             e.printStackTrace();
         }
         return content;
+    }
+
+    public Collection<File> getListOfFilters(String directoryPath){
+        Collection<File> filters = new ArrayList<>();
+        File folder =   new File(directoryPath);
+        File[] files = folder.listFiles();
+        for(File file: files){
+            if(file.isFile()){
+                String filename = file.getName();
+                if(filename.contains(".filter")){
+                 filters.add(file);
+                }
+            }
+        }
+        return filters;
     }
 
 
